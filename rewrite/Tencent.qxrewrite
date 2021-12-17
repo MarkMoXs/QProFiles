@@ -12,11 +12,23 @@
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 url reject
 ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 url reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg url reject
+^https?:\/\/btrace.qq.com url reject-img
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject-img
+^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject-img
+^https?:\/\/.+\/variety.tc.qq.com\/ url reject
+^https?:\/\/.+\/vlive.qqvideo.tc.qq.com\/ url reject
+^https?:\/\/.+\/hls.cache.p4p\/ url reject
+^https?:\/\/.+\/omts.tc.qq.com\/ url reject
+^https?:\/\/.+\/variety.tc.qq.com\/ url reject-img
+^https?:\/\/.+\/vlive.qqvideo.tc.qq.com\/ url reject-img
+^https?:\/\/.+\/hls.cache.p4p\/ url reject-img
 
 # [解除微信] 屏蔽（支持淘宝、天猫、支付宝等平台）(by HotKids)
 ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/weixin110.js
 
 # [微信公众号] 广告 (By Choler)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-img
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/report url reject-img
 
 hostname = weixin110.qq.com,mp.weixin.qq.com,mi.gdt.qq.com
