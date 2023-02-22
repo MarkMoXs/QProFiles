@@ -1,3 +1,7 @@
+## /*
+## 年久失修，仅作存档
+## */
+
 #wk (Wikipedia中文)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
 
