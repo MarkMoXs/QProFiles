@@ -46,9 +46,6 @@ host,img.allahall.com,direct
 host,img.dailmo.com,direct
 host,activation.crossutility.com,direct
 
-# aaex加速器
-host-suffix,aaex.hk,Outside
-
 # 手机京东
 host-suffix,cc.m.jd.com,direct
 
@@ -122,6 +119,9 @@ host-suffix,ivapp.cn,Outside
 #surge
 host-suffix,nssurge.com,Outside
 
+# aaex加速器
+host-suffix,aaex.hk,Outside
+
 # —————— ฅ՞•ﻌ•՞ฅ︎ ——————阻止修正—————— ฅ՞•ﻌ•՞ฅ︎ ——————
 
 host-suffix,render.shuqireader.com,reject
@@ -145,16 +145,7 @@ host-suffix, ndsopaapl.nudatasecurity.com, direct
 
 #百度输入法
 host-keyword,jomodns,reject
-host,res.mi.baidu.com,reject
 host,r6.mo.baidu.com,reject
-
-# QQ音乐去广告
-host,adstats.tencentmusic.com,reject
-host,ad.tencentmusic.com,reject
-host,adcdn.tencentmusic.com,reject
-host,adexpo.tencentmusic.com,reject
-host,adclick.tencentmusic.com,reject
-host,us.l.qq.com,reject
 
 #tieba
 host,aod-image.baidu.com,reject
