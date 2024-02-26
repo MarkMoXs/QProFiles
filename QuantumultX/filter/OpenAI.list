@@ -20,6 +20,7 @@ HOST-SUFFIX,auth0.openai.com,OpenAI
 HOST-SUFFIX,chat.openai.com,OpenAI
 HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
 HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+HOST-SUFFIX,cdn.openai.com,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
 HOST-SUFFIX,host.livekit.cloud,OpenAI
