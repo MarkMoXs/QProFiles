@@ -1,2 +1,4 @@
 #人机检测
-host-suffix, cloudflare.com, 台湾
+
+HOST-SUFFIX,cdn.cloudflare.net,OpenAI
+HOST-SUFFIX,challenges.cloudflare.com,OpenAI
