@@ -14,13 +14,13 @@ HOST-SUFFIX,ab.chatgpt.com,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,algolia.net,OpenAI
 HOST-SUFFIX,api.statsig.com,OpenAI
-HOST-SUFFIX,auth.openai.com,OpenAI
+;HOST-SUFFIX,auth.openai.com,OpenAI
 HOST-SUFFIX,auth0.com,OpenAI
-HOST-SUFFIX,auth0.openai.com,OpenAI
-HOST-SUFFIX,chat.openai.com,OpenAI
+;HOST-SUFFIX,auth0.openai.com,OpenAI
+;HOST-SUFFIX,chat.openai.com,OpenAI
 HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
 HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
-HOST-SUFFIX,cdn.openai.com,OpenAI
+;HOST-SUFFIX,cdn.openai.com,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
 HOST-SUFFIX,featuregates.org,OpenAI
 HOST-SUFFIX,host.livekit.cloud,OpenAI
@@ -31,6 +31,7 @@ HOST-SUFFIX,launchdarkly.com,OpenAI
 HOST-SUFFIX,oaistatic.com,OpenAI
 HOST-SUFFIX,oaiusercontent.com,OpenAI
 HOST-SUFFIX,observeit.net,OpenAI
+HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,poe.com,OpenAI
 HOST-SUFFIX,segment.io,OpenAI
 HOST-SUFFIX,sentry.io,OpenAI
