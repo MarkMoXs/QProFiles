@@ -1,56 +1,56 @@
 # 规则修正
 
-# ฅ՞•ﻌ•՞ฅ︎ ——————直连修正—————— ฅ՞•ﻌ•՞ฅ︎
+# >>>>>>>>>>>>>>> ✅ 直连 ✅ <<<<<<<<<<<<<<
 
-# 微软 onerive
+# > 微软 onerive
 host-suffix, onedrive.live.com, direct
 
-# 亿品元素 Windows软件网站
+# > 亿品元素 Windows软件网站
 host-suffix, epinv.com, direct
 
-# 彭于曼源 IOS 越狱源
+# > 彭于曼源 IOS 越狱源
 host-suffix, iosmgod.com , direct
 
-# 玩机小果 IOS 越狱源
+# > 玩机小果 IOS 越狱源
 host-suffix, guoxuesz.com, direct
 
-# 轻松签 IOS签名软件
+# > 轻松签 IOS签名软件
 host-suffix, esign.yyyue.xyz , direct
 
-# 壹图阁
+# > 壹图阁
 host-suffix, yituwu.com , direct
 host-suffix, yt567.xyz , direct
 
-# 百度盘更新
+# > 百度盘更新
 host, update.pan.baidu.com, direct
 
-# 番茄小说福利页
+# > 番茄小说福利页
 host, lf-sourcecdn-tos.bytegecko.com, direct
 
-# clubhouse
+# > clubhouse
 ip-cidr,164.52.102.0/24,direct
 
-# 微信小程序
-host,minorshort.weixin.qq.com, direct
-
-# 雀魂麻将
+# > 雀魂麻将
 host,www.maj-soul.com, direct
 host-keyword,maj-soul, direct
 
-# 抖音
+# > 抖音 字节跳动
 host-suffix,amemv.com,direct
 host-suffix,bytegoofy.com,direct
-#抖音设置
+# > 抖音设置
 host-suffix,zijieapi.com, direct
 
-#qq群公告小程序
+# > qq群公告小程序
 host,cdn.ark.qq.com,direct
 
-# 易有云
+# > 微信小程序
+host,minorshort.weixin.qq.com, direct
+
+# > 易有云
 host-suffix,ddns.to,direct
 host-suffix,ddnsto.com,direct
 
-# 有兔阅读
+# > 有兔阅读
 host,app.zhoudamozi.com,direct
 host-suffix,youzibank.com,direct
 host-suffix,mituyuedu.com,direct
@@ -58,83 +58,73 @@ host,img.allahall.com,direct
 host,img.dailmo.com,direct
 host,activation.crossutility.com,direct
 
-# 手机京东
+# > 手机京东
 host-suffix,cc.m.jd.com,direct
 
-#inoreader
+# > inoreader
 host,download.maxmind.com,direct
+# > 用于firebase 消息推送组件的网络检查
 host,app-measurement.com,direct
 
-#笔趣阁
+# > 笔趣阁
 host-suffix,biqugeu.com,direct
 host-suffix,biquge.com,direct
 
-#
+# > 
 host-suffix,laiyifa.org,direct
 
-#小绿人
+# > 小绿人
 host-suffix,greenmangaming.com,direct
 
-#
+# > 
 host,zqzess.qicp.vip,direct
 #
 host, tu.511.la, direct
 host, 6678888.xyz, direct
 
-# subhd字幕
+# > subhd字幕
 host-suffix,subhd.tv,direct
 host,img.subhd.la,direct
 
-# 衫果
-host,www.sonkwo.hk,direct
-host,static.sonkwo.hk,direct
+# > 衫果
+host-suffix,sonkwo.com,direct
 host-suffix,sonkwo.hk,direct
 
-#索尼headphones
+# > 索尼headphones
 host-suffix,sony.com,direct
 host-suffix,janraincapture.com,direct
 host-suffix,ndmdhs.com,direct
 
-#育碧
+# > 育碧
 host-suffix,ubi.com,direct
 host,ubistatic2-a.akamaihd.net,direct
 
-#米读
+# > 米读
 host,bid.adview.cn,reject
 host-suffix,afdback.ppsimg.com,reject
 host-suffix,fanqianxs.com,direct
 
-#
+# > 
 host-suffix,whitemoon.top,direct
 IP-CIDR,10.0.0.12/32,direct
 host-suffix,push.apple.com,direct
 host-suffix,jddebug.com,reject
 
-#Qcrane牛奶批发商（机场）
-host-suffix,bgpnode.com,direct
+# >>>>>>>>>>>>>>> ✅ 梯子 ✅ <<<<<<<<<<<<<<
 
-host-suffix,ossez.com,direct
+# > Pikpak网盘
+host-suffix,mypikpak.com,Outside
 
-#  ฅ՞•ﻌ•՞ฅ︎ ——————代理修正—————— ฅ՞•ﻌ•՞ฅ︎
-
-# 村花
-host-suffix,cunhua.mom,Outside
-host-keyword,cunhua,Outside
-
-# Pikpak网盘
-host,access.mypikpak.com,Outside
-
-#scriptable
+# > scriptable ios快捷指令自动化
 host,gallery.scriptable.app,Outside
-# ios黑科技
+
+# > ios黑科技
 host-suffix,ivapp.cn,Outside
-# surge
+
+# > surge
 host-suffix,nssurge.com,Outside
 
-# aaex加速器
-host-suffix,aaex.hk,Outside
-
-#  ฅ՞•ﻌ•՞ฅ︎ ——————阻止修正—————— ฅ՞•ﻌ•՞ฅ︎
+# >>>>>>>>>>>>>>> ✅ 阻止 ✅ <<<<<<<<<<<<<<
 host-suffix, knicks.jd.com, reject
 host-suffix, dg.k.jd.com, reject
 host-suffix, fxgate.baidu.com, reject
@@ -154,25 +144,25 @@ host, waphn.189.cn, reject
 host, static.ejcop.com, reject
 host, pic.rmb.bdstatic.com, reject
 
-#qq空间广告屏蔽
+# > qq空间广告屏蔽
 host,bsrv.qq.com,reject
 host,sq.bls.mdt.qq.com,reject
 host,xj-landing.gdtimg.com,reject
 
-#bilibili港澳台自动切换脚本
+# > bilibili港澳台自动切换脚本
 ip-cidr, 203.107.1.1/24, reject
 
 #网易云登陆验证
 host, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, ndsopaapl.nudatasecurity.com, direct
 
-#百度输入法
+# > 百度输入法
 host-keyword,jomodns,reject
 host,r6.mo.baidu.com,reject
 
-#tieba
+# > tieba
 host,aod-image.baidu.com,reject
 
-#
+# > 
 host,adjd.scdsvdsczx.cn,reject
 host,rr3---sn-ni57rn7d.gvt1.com,reject
